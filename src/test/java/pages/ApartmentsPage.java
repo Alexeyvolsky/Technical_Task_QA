@@ -39,7 +39,6 @@ public class ApartmentsPage extends BasePage{
         new Textarea(driver).setValue("body", apartmentsModel.getDescription());
         new Input(driver).setAddressValue("geocoder",apartmentsModel.getAddress());
         new Input(driver).setValue("price", apartmentsModel.getPrice());
-        new Dropdown(driver).selectOptionByText("currency",apartmentsModel.getCurrency().getName());
         new Input(driver).setValue("contact_person", apartmentsModel.getContactPerson());
     }
 

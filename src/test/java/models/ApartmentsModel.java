@@ -33,7 +33,6 @@ public class ApartmentsModel {
     private String numberAndDateOfTheContract;
     private String description;
     private String price;
-    private Currency currency;
     private String address;
     private String contactPerson;
 }

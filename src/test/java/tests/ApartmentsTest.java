@@ -47,9 +47,8 @@ public class ApartmentsTest extends BaseTest{
                         "Сделан ремонт по дизайн-проекту. Использовали только качественные дорогие материалы, мебель и технику. " +
                         "Все продумано до мелочей! ")
                 .setPrice("150000")
-                .setCurrency(Currency.BYR)
                 .setAddress("Карла Маркса ул, 31, Минск")
-                .setContactPerson("Oleg").build();
+                .setContactPerson("Олег").build();
         apartmentsPage.fillformApartments(apartmentsModel);
         postingPage.clickSubmitAnAdButton();
         Assert.assertTrue(postingPage.isModerationMessagePresent());

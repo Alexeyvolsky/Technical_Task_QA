@@ -33,7 +33,7 @@ public class GaragesTest extends BaseTest{
                 .setDescription("wzexrjuykhbytxzrerxtvkinjuyt")
                 .setPrice("1234")
                 .setAddress("Карла Маркса ул, 31, Минск")
-                .setContactPerson("Oleg")
+                .setContactPerson("Дмитрий")
                 .build();
         garagesPage.fillformGarages(garagesModel);
         postingPage.clickSubmitAnAdButton();

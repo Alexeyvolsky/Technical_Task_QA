@@ -45,8 +45,8 @@ public class RoomsTest extends BaseTest{
                 .setNumberAndDateOfTheContract("425/1 от 01.07.2021")
                 .setDescription("qwertyuiopasfghjklzxcvbnm")
                 .setAddress("Карла Маркса ул, 31, Минск")
-                .setPrice("1000")
-                .setContactPerson("Oleg")
+                .setPrice("234000")
+                .setContactPerson("Дмитрий")
                 .build();
         roomsPage.fillformRoomsPage(roomsModel);
         postingPage.clickSubmitAnAdButton();

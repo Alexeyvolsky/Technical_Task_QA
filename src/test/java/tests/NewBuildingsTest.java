@@ -23,7 +23,7 @@ public class NewBuildingsTest extends BaseTest {
         newBuildingsPage.uploadFile();
         NewBuildingsModel newBuildingsModel = NewBuildingsModel.builder()
                 .setContentVideo("https://www.youtube.com/@kufar_by")
-                .setSubject("Квартира в Минске ормывирпрыжпоыдвпиоывпжиывп гшиы")
+                .setSubject("Квартира в Минске не дорого")
                 .setNumberOfRooms(NumberOfRooms.ONE)
                 .setTypeOfLayout(TypeOfLayout.FREELAYOUT)
                 .setFloorsOfHouse(FloorsOfHouse.TWENTYSEVENTH)
@@ -36,7 +36,7 @@ public class NewBuildingsTest extends BaseTest {
                 .setDescription("qwertyuiopasfghjklzxcvbnm")
                 .setAddress("Карла Маркса ул, 31, Минск")
                 .setPricePerM2("1230")
-                .setContactPerson("Oleg").build();
+                .setContactPerson("Дмитрий").build();
         newBuildingsPage.fillformNewBuildings(newBuildingsModel);
         postingPage.clickSubmitAnAdButton();
         Assert.assertTrue(postingPage.isModerationMessagePresent());
