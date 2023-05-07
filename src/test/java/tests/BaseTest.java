@@ -45,8 +45,8 @@ public abstract class BaseTest {
         driver.get(BASE_URL);
     }
 
-//    @AfterClass(alwaysRun = true)
-//    public void tearDown() {
-//        driver.quit();
-//    }
+   @AfterClass(alwaysRun = true)
+   public void tearDown() {
+       driver.quit();
+   }
 }
